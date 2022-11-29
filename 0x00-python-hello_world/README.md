@@ -1,19 +1,11 @@
-You are not allowed to google anything
-
-Whiteboard first
-
-This task and all future technical interview prep tasks will include checks for the efficiency of your solution, i.e. is your solution’s runtime fast enough, does your solution require extra memory usage / mallocs, etc.
-
-Write a function in C that checks if a singly linked list has a cycle in it.
+Write a Python script that prints exactly and that piece of art is useful - Dora Korpar, 2015-10-19, followed by a new line.
 
 
 
-Prototype: int check_cycle(listint_t *list);
+Use the function write from the sys module
 
-Return: 0 if there is no cycle, 1 if there is a cycle
+You are not allowed to use print
 
-Requirements:
+Your script should print to stderr
 
-
-
-Only these functions are allowed: write, printf, putchar, puts, malloc, free
+Your script should exit with the status code 1
