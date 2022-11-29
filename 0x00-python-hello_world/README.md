@@ -1,17 +1,15 @@
-Technical interview preparation:
+Complete this source code
 
 
 
-You are not allowed to google anything
+You can find the source code here
 
-Whiteboard first
+You are not allowed to use any loops or conditional statements
 
-This task and all future technical interview prep tasks will include checks for the efficiency of your solution, i.e. is your solution’s runtime fast enough, does your solution require extra memory usage / mallocs, etc.
+Your program should be exactly 8 lines long
 
-Write a function in C that checks if a singly linked list has a cycle in it.
+word_first_3 should contain the first 3 letters of the variable word
 
+word_last_2 should contain the last 2 letters of the variable word
 
-
-Prototype: int check_cycle(listint_t *list);
-
-Return: 0 if there is no cycle, 1 if there is a cycle
+middle_word should contain the value of the variable word without the first and last letters
