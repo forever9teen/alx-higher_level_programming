@@ -1,2 +1,5 @@
-# alx-higher_level_programming
-I'm now a python programmer
+Write a Shell script that runs a Python script.
+
+
+
+The Python file name will be saved in the environment variable 
