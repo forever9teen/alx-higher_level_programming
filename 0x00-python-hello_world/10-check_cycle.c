@@ -9,6 +9,7 @@ int check_cycle(listint_t *list)
 
 	listint_t *tortoise, *hare;
 
+
 	tortoise = list;
 	hare = list;
 
@@ -16,6 +17,7 @@ int check_cycle(listint_t *list)
 	{
 		if (hare->next == NULL)
 			return (0);
+
 		tortoise = tortoise->next;
 		hare = hare->next->next;
 		if (tortoise == hare)
