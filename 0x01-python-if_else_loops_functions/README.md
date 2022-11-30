@@ -1,12 +1,12 @@
-rite a function that checks for lowercase character.
+Write a function that prints a string in uppercase followed by a new line.
 
 
 
-Prototype: def islower(c):
+Prototype: def uppercase(str):
 
-Returns True if c is lowercase
+You can only use no more than 2 print functions with string format
 
-Returns False otherwise
+You can only use one loop in your code
 
 You are not allowed to import any module
 
