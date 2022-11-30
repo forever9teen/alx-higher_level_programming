@@ -1,23 +1,17 @@
-Write a program that prints all possible different combinations of two digits.
+rite a function that checks for lowercase character.
 
 
 
-Numbers must be separated by ,, followed by a space
+Prototype: def islower(c):
 
-The two digits must be different
+Returns True if c is lowercase
 
-01 and 10 are considered the same combination of the two digits 0 and 1
-
-Print only the smallest combination of two digits
-
-Numbers should be printed in ascending order, with two digits
-
-The last number should be followed by a new line
-
-You can only use no more than 3 print functions with string format
-
-You can only use no more than 2 loops in your code
-
-You are not allowed to store numbers or strings in a variable
+Returns False otherwise
 
 You are not allowed to import any module
+
+You are not allowed to use str.upper() and str.isupper()
+
+Tips: ord()
+
+You don’t need to understand __import__
