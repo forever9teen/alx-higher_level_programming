@@ -1,8 +1,14 @@
-Write a program that prints all numbers from 0 to 98 in decimal and in hexadecimal (as in the following example)
+Write a program that prints numbers from 0 to 99.
 
 
 
-You can only use one print function with string format
+Numbers must be separated by ,, followed by a space
+
+Numbers should be printed in ascending order, with two digits
+
+The last number should be followed by a new line
+
+You can only use no more than 2 print functions with string format
 
 You can only use one loop in your code
 
