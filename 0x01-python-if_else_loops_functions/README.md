@@ -2,6 +2,8 @@ Write a program that prints the ASCII alphabet, in lowercase, not followed by a 
 
 
 
+Print all the letters except q and e
+
 You can only use one print function with string format
 
 You can only use one loop in your code
