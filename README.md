@@ -1,1 +1,1 @@
-1. The last digit
+15. Remove at position
