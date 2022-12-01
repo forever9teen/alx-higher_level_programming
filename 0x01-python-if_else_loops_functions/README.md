@@ -1,25 +1,15 @@
-This program will assign a random signed number to the variable number each time it is executed. Complete the source code in order to print the last digit of the number stored in the variable number.
+Technical interview preparation:
 
 
 
-You can find the source code here
+You are not allowed to google anything
 
-The variable number will store a different value every time you will run this program
+Whiteboard first
 
-You don’t have to understand what import, random.randint do. Please do not touch this code. This line should not change: number = random.randint(-10000, 10000)
+Write a function in C that inserts a number into a sorted singly linked list.
 
-The output of the program should be:
 
-The string Last digit of, followed by
 
-the number, followed by
+Prototype: listint_t *insert_node(listint_t **head, int number);
 
-the string is, followed by the last digit of number, followed by
-
-if the last digit is greater than 5: the string and is greater than 5
-
-if the last digit is 0: the string and is 0
-
-if the last digit is less than 6 and not 0: the string and is less than 6 and not 0
-
-followed by a new line
+Return: the address of the new node, or NULL if it failed
