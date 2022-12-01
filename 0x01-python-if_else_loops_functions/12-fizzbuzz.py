@@ -11,8 +11,9 @@ def fizzbuzz():
                 print('Buzz', end=' ')
             else:
                 print('Buzz', end=' ')
-            else:
-                print('{:d}'.format(n), end=' ')
+        else:
+            print('{:d}'.format(n), end=' ')
 
-                f __name__ == '__main__':
-                    fizzbuzz()
+
+            if __name__ == '__main__':
+                fizzbuzz()
