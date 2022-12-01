@@ -1,1 +1,1 @@
-8. Create a new sentence
+1. The last digit
