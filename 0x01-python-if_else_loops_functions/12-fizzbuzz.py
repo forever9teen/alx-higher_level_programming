@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 
-
 def fizzbuzz():
     for n in range(1, 101):
         if n % 5 == 0 and n % 3 == 0:
@@ -15,6 +14,5 @@ def fizzbuzz():
             else:
                 print('{:d}'.format(n), end=' ')
 
-
-if __name__ == '__main__':
-     fizzbuzz()
+                f __name__ == '__main__':
+                    fizzbuzz()
