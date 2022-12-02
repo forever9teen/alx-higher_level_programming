@@ -1,23 +1,21 @@
-Write a program that imports functions from the file calculator_1.py, does some Maths, and prints the result.
+Write a program that prints the number of and the list of its arguments.
 
 
 
-Do not use the function print (with string format to display integers) more than 4 times
+The output should be:
 
-You have to define:
+Number of argument(s) followed by argument (if number is one) or arguments (otherwise), followed by
 
-the value 10 to a variable a
+: (or . if no arguments were passed) followed by
 
-the value 5 to a variable b
+a new line, followed by (if at least one argument),
 
-and use those two variables only, as arguments when calling functions (including print)
+one line per argument:
 
-a and b must be defined in 2 different lines: a = 10 and another b = 5
-
-Your program should call each of the imported functions. See example below for format
-
-the word calculator_1 should be used only once in your file
-
-You are not allowed to use * for importing or __import__
+the position of the argument (starting at 1) followed by :, followed by the argument value and a new line
 
 Your code should not be executed when imported
+
+The number of elements of argv can be retrieved by using: len(argv)
+
+You do not have to fully understand lists yet, but imagine that argv can be used just like a C array: you can use an index to walk through it. There are other ways (which will be preferred for future project tasks), if you know them you can use them.
