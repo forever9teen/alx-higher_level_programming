@@ -1,11 +1,9 @@
-Write a function that deletes the item at a specific position in a list.
+Complete the source code in order to switch value of a and b
 
 
 
-Prototype: def delete_at(my_list=[], idx=0):
+You can find the source code here
 
-If idx is negative or out of range, nothing change (returns the same list)
+Your code should be inserted where the comment is (line 4)
 
-You are not allowed to use pop()
-
-You are not allowed to import any module
+Your program should be exactly 5 lines long
