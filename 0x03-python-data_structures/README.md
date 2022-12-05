@@ -1,7 +1,11 @@
-CPython is the reference implementation of the Python programming language. Written in C, CPython is the default and most widely used implementation of the language.
-
-Since we now know a bit of C, we can look at what is happening under the hood of Python. Let’s have fun with Python and C, and let’s look at what makes Python so easy to use.
+Write a function that finds all multiples of 2 in a list.
 
 
 
-All your files will be interpreted/compiled on Ubuntu 14.04 LTS
+Prototype: def divisible_by_2(my_list=[]):
+
+Return a new list with True or False, depending on whether the integer at the same position in the original list is a multiple of 2
+
+The new list should have the same size as the original list
+
+You are not allowed to import any module
