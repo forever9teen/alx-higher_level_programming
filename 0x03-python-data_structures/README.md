@@ -1,11 +1,15 @@
-Write a function that removes all characters c and C from a string.
+Write a function that prints a matrix of integers.
 
 
 
-Prototype: def no_c(my_string):
+Prototype: def print_matrix_integer(matrix=[[]]):
 
-The function should return the new string
+Format: see example
 
 You are not allowed to import any module
 
-You are not allowed to use str.replace()
+You can assume that the list only contains integers
+
+You are not allowed to cast integers into strings
+
+You have to use str.format() to print integers
