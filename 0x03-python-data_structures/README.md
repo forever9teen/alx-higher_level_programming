@@ -1,9 +1,17 @@
-Complete the source code in order to switch value of a and b
+Technical interview preparation:
 
 
 
-You can find the source code here
+You are not allowed to google anything
 
-Your code should be inserted where the comment is (line 4)
+Whiteboard first
 
-Your program should be exactly 5 lines long
+Write a function in C that checks if a singly linked list is a palindrome.
+
+
+
+Prototype: int is_palindrome(listint_t **head);
+
+Return: 0 if it is not a palindrome, 1 if it is a palindrome
+
+An empty list is considered a palindrome
