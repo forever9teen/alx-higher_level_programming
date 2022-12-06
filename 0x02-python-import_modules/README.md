@@ -1,17 +1,21 @@
-Write a program that prints the alphabet in uppercase, followed by a new line.
+Write a program that prints the number of and the list of its arguments.
 
 
 
-Your program should be maximum 3 lines long
+The output should be:
 
-You are not allowed to use:
+Number of argument(s) followed by argument (if number is one) or arguments (otherwise), followed by
 
-any loops
+: (or . if no arguments were passed) followed by
 
-any conditional statements
+a new line, followed by (if at least one argument),
 
-str.join()
+one line per argument:
 
-any string literal
+the position of the argument (starting at 1) followed by :, followed by the argument value and a new line
 
-any system calls
+Your code should not be executed when imported
+
+The number of elements of argv can be retrieved by using: len(argv)
+
+You do not have to fully understand lists yet, but imagine that argv can be used just like a C array: you can use an index to walk through it. There are other ways (which will be preferred for future project tasks), if you know them you can use them.
