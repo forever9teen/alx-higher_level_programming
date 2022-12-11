@@ -1,19 +1,9 @@
-Write a function that returns a list with all values multiplied by a number without using any loops.
+Write a function that returns the weighted average of all integers tuple (<score>, <weight>)
 
 
 
-Prototype: def multiply_list_map(my_list=[], number=0):
+Prototype: def weight_average(my_list=[]):
 
-Returns a new list:
-
-Same length as my_list
-
-Each value should be multiplied by number
-
-Initial list should not be modified
+Returns 0 if the list is empty
 
 You are not allowed to import any module
-
-You have to use map
-
-Your file should be max 3 lines
