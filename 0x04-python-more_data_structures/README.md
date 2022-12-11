@@ -1,23 +1,11 @@
-Write a function that computes the square value of all integers of a matrix using map
+Write a function that deletes keys with a specific value in a dictionary.
 
 
 
-Prototype: def square_matrix_map(matrix=[]):
+Prototype: def complex_delete(a_dictionary, value):
 
-matrix is a 2 dimensional array
+If the value doesn’t exist, the dictionary won’t change
 
-Returns a new matrix:
-
-Same size as matrix
-
-Each value should be the square of the value of the input
-
-Initial matrix should not be modified
+All keys having the searched value have to be deleted
 
 You are not allowed to import any module
-
-You have to use map
-
-You are not allowed to use for or while
-
-Your file should be max 3 lines
