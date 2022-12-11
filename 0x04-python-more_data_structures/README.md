@@ -1,15 +1,11 @@
-Write a function that prints a dictionary by ordered keys.
+Write a function that deletes a key in a dictionary.
 
 
 
-Prototype: def print_sorted_dictionary(a_dictionary):
+Prototype: def simple_delete(a_dictionary, key=):
 
-You can assume that all keys are strings
+key argument will be always a string
 
-Keys should be sorted by alphabetic order
-
-Only sort keys of the first level (don’t sort keys of a dictionary inside the main dictionary)
-
-Dictionary values can have any type
+If a key doesn’t exist, the dictionary won’t change
 
 You are not allowed to import any module
