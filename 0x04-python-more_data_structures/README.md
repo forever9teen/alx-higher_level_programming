@@ -1,11 +1,11 @@
-Write a function that deletes a key in a dictionary.
+Write a function that returns a new dictionary with all values multiplied by 2
 
 
 
-Prototype: def simple_delete(a_dictionary, key=):
+Prototype: def multiply_by_2(a_dictionary):
 
-key argument will be always a string
+You can assume that all values are only integers
 
-If a key doesn’t exist, the dictionary won’t change
+Returns a new dictionary
 
 You are not allowed to import any module
