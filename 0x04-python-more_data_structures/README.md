@@ -1,11 +1,15 @@
-Write a function that returns a new dictionary with all values multiplied by 2
+Write a function that returns a key with the biggest integer value.
 
 
 
-Prototype: def multiply_by_2(a_dictionary):
+Prototype: def best_score(a_dictionary):
 
 You can assume that all values are only integers
 
-Returns a new dictionary
+If no score found, return None
+
+You can assume all students have a different score
 
 You are not allowed to import any module
+
+
