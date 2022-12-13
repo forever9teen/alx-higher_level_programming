@@ -1,11 +1,11 @@
-Write a function that deletes keys with a specific value in a dictionary.
+Write a function that returns a new dictionary with all values multiplied by 2
 
 
 
-Prototype: def complex_delete(a_dictionary, value):
+Prototype: def multiply_by_2(a_dictionary):
 
-If the value doesn’t exist, the dictionary won’t change
+You can assume that all values are only integers
 
-All keys having the searched value have to be deleted
+Returns a new dictionary
 
 You are not allowed to import any module
