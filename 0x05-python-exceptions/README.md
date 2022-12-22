@@ -1,21 +1,21 @@
-Write a function that prints x elements of a list.
+Write a function that prints an integer with {:d}.format().
 
 
 
-Prototype: def safe_print_list(my_list=[], x=0):
+Prototype: def safe_print_integer(value):
 
-my_list can contain any type (integer, string, etc.)
+value can be any type (integer, string, etc.)
 
-All elements must be printed on the same line followed by a new line.
+The integer should be printed followed by a new line
 
-x represents the number of elements to print
+Returns True if value has been correctly printed (it means the value is an integer)
 
-x can be bigger than the length of my_list
-
-Returns the real number of elements printed
+Otherwise, returns False
 
 You have to use try: / except:
 
+You have to use {:d}.format() to print as integer
+
 You are not allowed to import any module
 
-You are not allowed to use len()
+You are not allowed to use type()
