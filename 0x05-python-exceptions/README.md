@@ -1,25 +1,17 @@
-Write a function that prints the first x elements of a list and only integers.
+Write a function that divides 2 integers and prints the result.
 
 
 
-Prototype: def safe_print_list_integers(my_list=[], x=0):
+Prototype: def safe_print_division(a, b):
 
-my_list can contain any type (integer, string, etc.)
+You can assume that a and b are integers
 
-All integers have to be printed on the same line followed by a new line - other type of value in the list must be skipped (in silence).
+The result of the division should print on the finally: section preceded by Inside result:
 
-x represents the number of elements to access in my_list
+Returns the value of the division, otherwise: None
 
-x can be bigger than the length of my_list - if it’s the case, an exception is expected to occur
+You have to use try: / except: / finally:
 
-Returns the real number of integers printed
-
-You have to use try: / except:
-
-You have to use {:d}.format() to print an integer
+You have to use {}.format() to print the result
 
 You are not allowed to import any module
-
-You are not allowed to use len()
-
-
